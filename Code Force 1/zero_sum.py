@@ -6,7 +6,6 @@ def can_make_zero_sum(a: list[int]) -> bool:
     """Return True if the array's elements can be rearranged/flipped to sum to 0."""
     return sum(a) % 4 == 0
 
-
 def solve(input_data: str) -> str:
     """Process all test cases from raw input text and return the combined output."""
     data = input_data.split()
